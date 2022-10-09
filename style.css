@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+#state {
+    color:rgb(130, 190, 214);
+    text-shadow: 1px 1px 3px rgb(41, 42, 45);
+}
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+td {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(247, 231, 195);
+    box-shadow: 1px 1px 3px rgb(41, 42, 45);
+    cursor: pointer;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    user-select: none;
+}
+td:hover {
+    background-color: rgb(218, 227, 234);
+}
+button {
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(67, 63, 52);
+    box-shadow: 1px 1px 3px rgb(41, 42, 45);
+    cursor: pointer;
+    text-align: center;
+    color:rgb(130, 190, 214);
+    margin-top: 10px;
+}
+button:hover {
+    background-color: rgb(247, 231, 195);
+}
